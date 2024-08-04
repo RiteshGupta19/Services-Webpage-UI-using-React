@@ -1,38 +1,134 @@
-.App {
-  text-align: center;
+*,body{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.imgdiv{
+  margin-top: 10%;
+  height: 340px;
+  background: url('bg-pagetitle.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.image{
+  width: 100%;
+  height: 340px;
+  background: rgba(2, 2, 26, 0.7);
+}
+.imgcont{
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%); /* Centering with transform */
+}
+.righticon{
+  color: rgb(169, 90, 203);
+  font-size: 16px;
+}
+.left,.right{
+  color: rgb(28, 84, 251);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.profile{
+  width: 60%;
+  position: relative;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.cardbody h5:hover{
+  color: blue;
+  cursor: pointer;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.cardbody{
+  width: 100%;
+}
+.cardbody a{
+  background-color: black;
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.cardbody a:hover{
+  transition: 0.5s;
+  background-color: blue;
+  color: white;
+}
+.cardd{
+  position: relative;
+  background-color: white;
+  border: 1px solid blue;
+}
+.cardd:hover{
+  .profile{
+    transition: 0.6s;
+  border: 5px solid blue;
+}
+.profileicons{
+  transition: 0.6s;
+  background-color: blue;
+  border: 4px solid #ffffff;
+}
+}
+.profileicons{
+  color: rgb(0, 0, 0);
+  background-color: rgb(255, 255, 255);
+  font-size: 31px;
+  border: 4px solid blue;
+  position: absolute;
+  top: 32%;
+  right: 95px;
+}
+.slider{
+  background-color: rgb(234, 234, 249);
+}
+.about{
+  background-color: white;
+  color: rgb(0, 0, 0);
+  border: 2px solid blue;
+}
+.about:hover{
+  transition: 0.7s;
+  background-color: blue;
+  color: rgb(255, 255, 255);
+}
+.lowericon{
+  border: 2px solid blue;
+}
+.l-card:hover .lowericon{
+  animation: bounce 0.6s infinite ;
+}
+@keyframes bounce {
+  0% ,97%, 100%{
+    transform: translateY(0); 
+  }
+  60% {
+    transform: translateY(-11px); 
+  }
+  70%{
+    transform: translateY(0px); 
+  }
+  83%{
+    transform: translateY(-4px); 
+  }
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media screen and (max-width: 769px) {
+  .imgcont{
+    position: absolute;
+    top: 35%;
   }
-  to {
-    transform: rotate(360deg);
-  }
+  
+}
+
+.slidercont{
+  width: 7%;
+  position: absolute;
+  bottom: 6%;
+  z-index: 10;
+}
+.shado{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  box-shadow: 0px 0px 500px 70px black;
+  z-index: 0;
+}
+.sliderimg{
+  width: 88%;
 }
