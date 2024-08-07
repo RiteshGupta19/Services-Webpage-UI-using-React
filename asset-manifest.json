@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/Services-Webpage-UI-using-React/static/css/main.8071fe7d.css",
+    "main.js": "/Services-Webpage-UI-using-React/static/js/main.65676adb.js",
+    "static/js/453.bf026fcf.chunk.js": "/Services-Webpage-UI-using-React/static/js/453.bf026fcf.chunk.js",
+    "static/media/bg-pagetitle.jpg": "/Services-Webpage-UI-using-React/static/media/bg-pagetitle.f31b5bd0ae204a9b67f3.jpg",
+    "static/media/slick.svg": "/Services-Webpage-UI-using-React/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/Services-Webpage-UI-using-React/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/Services-Webpage-UI-using-React/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/Services-Webpage-UI-using-React/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/Services-Webpage-UI-using-React/index.html",
+    "main.8071fe7d.css.map": "/Services-Webpage-UI-using-React/static/css/main.8071fe7d.css.map",
+    "main.65676adb.js.map": "/Services-Webpage-UI-using-React/static/js/main.65676adb.js.map",
+    "453.bf026fcf.chunk.js.map": "/Services-Webpage-UI-using-React/static/js/453.bf026fcf.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8071fe7d.css",
+    "static/js/main.65676adb.js"
+  ]
+}
